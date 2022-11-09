@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 3.2//RU">
+<HTML>
+
+<head>
+    <title>Лабораторная работа 2.3</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <script language="JavaScript">
+        function eventForm(value) {
+        if (value == 'test') {
+            alert('Вы ввели то что нужно')
+        }
+}
+    </script>
+
+    <p>
+        <form>
+            <P>Вычисление площади</br>Автоматически
+            <BR>Сторона
+            <INPUT NAME="side" TYPE=TEXTBOX VALUE="">
+            <P>Площать
+            <INPUT TYPE="square" NAME="CONTROL2">
+            </form>
+    </p>
+    <p>
+        <form>
+            <P>Вычисление площади</br>Уйдите с поля 'сторона'
+            <BR>Сторона
+            <INPUT NAME="text" TYPE=TEXTBOX onchange='eventForm(this.value)'>
+            <P>Площать
+            <INPUT TYPE="square" NAME="CONTROL2">
+            </form>
+    </p>
+</body>
+
+</HTML>

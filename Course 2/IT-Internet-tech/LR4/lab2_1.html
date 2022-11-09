@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            margin: 6%;
+
+        }
+
+        img {
+            padding: 10px
+        }
+
+        button {
+            height: 50px;
+            width: 100px
+        }
+    </style>
+    <script language="JavaScript">
+        var i = 1;
+        function set_image() {
+            alert("Обмен картинками")
+            var swap;
+            swap = document.one.src;
+            document.one.src = document.two.src;
+            document.two.src = swap;
+        }
+    </script>
+    <title>Лабораторная 2.1</title>
+</head>
+
+<body bgcolor="#FFFAF0">
+    <p align=center>
+        <img name="one" src="1.jpg" width="350" height="450">
+        <img name="two" src="2.jpg" width="350" height="450">
+
+    </p>
+    <p align=center>
+        <img name="tree" src="1.jpg" width="100" height="100" input value="Обменять" onclick="set_image()" readonly>
+    </p>
+
+</body>
+
+</HTMl>

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    font-family: Roboto, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.fio{
+    text-align: right;
+    line-height: 20px;
+}
+.text{
+    margin-left: 60px;
+}
+.history{
+    background-color: gray;
+    padding: 20px;
+    height: 500px;
+}
+.lowhis{
+    font-family: Arial;
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 4px 4px 3px blue;
+}
+.histext{
+    background-color: white;
+    width: 50%;
+    margin:0 auto;
+    border-right: 8px double blue;
+    line-height: inherit;
+}

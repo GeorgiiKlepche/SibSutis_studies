@@ -1,0 +1,19 @@
+#count0 {
+    position: fixed;
+    top: 250px;
+    visibility: visible;
+}
+
+#count1 {
+    visibility: hidden;
+}
+
+form div {
+    margin-top: 12px;
+}
+
+body {
+    position: fixed;
+    left: 40%;
+    top: 20%;
+}
