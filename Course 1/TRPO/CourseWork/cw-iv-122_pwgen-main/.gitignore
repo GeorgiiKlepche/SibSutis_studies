@@ -1,0 +1,10 @@
+.*~
+*.a
+*.d
+*.o
+bin/pwgen
+bin/passgen
+bin/libpwgen
+bin/test
+.vscode/
+description-pak
